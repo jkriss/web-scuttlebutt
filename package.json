@@ -1,0 +1,24 @@
+{
+  "name": "web-scuttlebutt",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "budo index.js -- -r level-browserify:level -r browserify-fs:fs -r atomic-file-no-browser:atomic-file -r atomic-file-no-browser/buffer:atomic-file/buffer"
+  },
+  "author": "Jesse Kriss <jkriss@jklabs.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^11.3.2"
+  },
+  "dependencies": {
+    "browserify-fs": "^1.0.0",
+    "level-browserify": "^2.0.0",
+    "level-sublevel": "^6.6.5",
+    "levelup": "^3.1.1",
+    "memdown": "^3.0.0",
+    "pull-stream": "^3.6.9",
+    "secure-scuttlebutt": "^18.2.0",
+    "ssb-keys": "^7.1.1"
+  }
+}
